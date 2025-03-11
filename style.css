@@ -1,0 +1,44 @@
+ .div { 
+    column-count:3
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.box {
+    width: 50%;
+
+}
+
+.left {
+    width:15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.in {
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+}
+
+ul li {
+    list-style-type: none;
+}
