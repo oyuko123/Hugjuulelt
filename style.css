@@ -11,6 +11,18 @@ body {
     padding: 20px;
 }
 
+.middle {
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.middle p {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
 .top {
     display: flex;
     justify-content: space-between;
